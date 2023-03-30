@@ -33,5 +33,3 @@ if sb :
   predct=RFC.predict([[sl,sw,pl,pw]])
   species = dt.target_names[predct[0]]
   st.write(f"The predicted species is {species}")
-
-!streamlit run /content/app.py & npx localtunnel --port 8501
